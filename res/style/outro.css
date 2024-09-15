@@ -6,16 +6,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
+.page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .header{
     color: #ff9100;
     font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     margin-top: 3%;
@@ -27,65 +32,17 @@ body{
                 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.piercer{
+.advicer{
     margin-top: 20%;
-    font-size: 20px;
-}
-
-.scroll-wrapper {
-    display: flex;
-    align-items: center;
-    margin-top: 8%;
-}
-
-.scroll-container {
-    display: flex;
-    overflow: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    width: 800px;
-    max-height: 700px;
-    border-radius: 10px;
-}
-
-.scroll-container img {
-    min-width: 110%;
-    height: auto;
-    margin-right: 15px;
-    margin-left: 15px;
-    border-radius: 10px;
-}
-
-button {
-    background-color: #ff9100;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 90px;
-    margin: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-size: 40px;
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 400;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.scroll-left{
-    transform: rotate(180deg);
-}
-
-
-.final{
-    min-width: 800px;
-    background-color: #00000062;
+    padding-top: 10px;
+    max-width: 800px;
+    background-color: #0000003f;
     border-radius: 10px;
     text-align: center;
     
 }
 
-.final a{
+.advicer .choicebuttons a{
     display: inline-block;
     margin-top: 8%;
     padding: 10px 20px;
@@ -101,18 +58,15 @@ button {
     transition: background-color 0.3s ease, transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     box-shadow: 4px 4px 0px rgba(172, 98, 1, 0.5);
     transform-origin: center;
-
+    margin: 50px;
 }
 
-.final a:hover{
+.advicer .choicebuttons a:hover{
     background-color: #e78300;
     transform: scale(1.2);
 }
 
-.scroll-container img{
-    object-fit: cover;
-}
-
-.final img{
-    scale: 0.8;
+.kisa{
+    position: absolute;
+    margin-top: 60%;
 }
